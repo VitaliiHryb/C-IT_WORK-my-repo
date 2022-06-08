@@ -2,7 +2,8 @@
     background-color: red;
 }
 
-.highlighted .company-data {
+.highlighted,
+.company-data {
     color: yellow;
 }
 
