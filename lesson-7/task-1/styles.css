@@ -21,7 +21,7 @@ button:disabled {
     border: 2px dashed grey;
 }
 
-button:enabled {
+button:hover[enabled] {
     color: white;
     background-color: grey;
 }
