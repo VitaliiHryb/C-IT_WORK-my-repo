@@ -4,7 +4,7 @@
     color: orange;
 }
 
-.theory {
+.theory::first-line {
     font-size: 24px;
 }
 
