@@ -2,7 +2,8 @@ div {
     box-sizing: content-box;
     border: 2px solid black;
     width: calc(100% - 104px);
-    margin-top: 51px;
+    margin-top: 50px;
+    margin-bottom: 2px;
     margin-left: 50px;
 }
 
