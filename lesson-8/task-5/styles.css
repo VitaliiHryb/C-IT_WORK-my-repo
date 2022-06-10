@@ -1,7 +1,7 @@
 div {
     box-sizing: content-box;
     border: 2px solid black;
-    width: calc(100% - 100px);
+    width: calc(100% - 104px);
     /* blue, yellow, green, pink */
 }
 
@@ -14,7 +14,7 @@ div {
 
 .yellow {
     position: relative;
-    height: 300px;
+    height: 296px;
     margin-top: 50px;
     margin-left: 50px;
     background-color: yellow;
@@ -22,7 +22,7 @@ div {
 
 .green {
     position: relative;
-    height: 200px;
+    height: 196px;
     margin-top: 50px;
     margin-left: 50px;
     background-color: green;
@@ -30,7 +30,7 @@ div {
 
 .pink {
     position: relative;
-    height: 100px;
+    height: 96px;
     margin-top: 50px;
     margin-left: 50px;
     background-color: pink;
