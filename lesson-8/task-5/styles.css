@@ -7,14 +7,14 @@ div {
 
 .blue {
     position: absolute;
-    height: 402px;
+    height: 401px;
     margin: 50px;
     background-color: blue;
 }
 
 .yellow {
     position: relative;
-    height: 302px;
+    height: 301px;
     margin-top: 50px;
     margin-left: 50px;
     background-color: yellow;
@@ -22,7 +22,7 @@ div {
 
 .green {
     position: relative;
-    height: 202px;
+    height: 201px;
     margin-top: 50px;
     margin-left: 50px;
     background-color: green;
@@ -30,7 +30,7 @@ div {
 
 .pink {
     position: relative;
-    height: 102px;
+    height: 101px;
     margin-top: 50px;
     margin-left: 50px;
     background-color: pink;
