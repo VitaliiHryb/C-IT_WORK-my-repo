@@ -13,6 +13,7 @@ div {
 .blue {
     background-color: blue;
     margin: 50px;
+    padding-bottom: 0;
 }
 
 .yellow {
