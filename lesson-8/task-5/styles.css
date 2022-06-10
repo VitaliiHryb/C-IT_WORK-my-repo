@@ -1,8 +1,6 @@
 body {
     position: absolute;
-    box-sizing: border-box;
-    margin: 50px 50px 0 50px;
-    width: calc(100% - 100px);
+    width: 100%;
 }
 
 div {
@@ -14,6 +12,7 @@ div {
 
 .blue {
     background-color: blue;
+    margin: 50px 50px 0 50px;
 }
 
 .yellow {
