@@ -15,7 +15,7 @@ div {
 .yellow {
     position: relative;
     height: 296px;
-    margin-top: 50px;
+    margin-top: 48px;
     margin-left: 50px;
     background-color: yellow;
 }
@@ -23,7 +23,7 @@ div {
 .green {
     position: relative;
     height: 196px;
-    margin-top: 50px;
+    margin-top: 48px;
     margin-left: 50px;
     background-color: green;
 }
@@ -31,7 +31,7 @@ div {
 .pink {
     position: relative;
     height: 96px;
-    margin-top: 50px;
+    margin-top: 48px;
     margin-left: 50px;
     background-color: pink;
 }
