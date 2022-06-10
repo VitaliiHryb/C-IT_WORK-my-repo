@@ -1,0 +1,40 @@
+div {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* blue, yellow, green, pink */
+}
+
+.blue {
+    position: absolute;
+    width: calc(100% - 100px);
+    height: 400px;
+    margin: 50px;
+    background-color: blue;
+}
+
+.yellow {
+    position: relative;
+    width: calc(100% - 100px);
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: yellow;
+}
+
+.green {
+    position: relative;
+    width: calc(100% - 100px);
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: green;
+}
+
+.pink {
+    position: relative;
+    width: calc(100% - 100px);
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: pink;
+}
