@@ -1,0 +1,8 @@
+div {
+    box-sizing: content-box;
+    width: auto;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 50px;
+    background-color: aqua;
+}
