@@ -1,14 +1,15 @@
+body {
+    position: absolute;
+    box-sizing: content-box;
+    margin: 50px 50px 0 50px;
+    width: calc(100% - 100px);
+}
+
 div {
     position: relative;
     box-sizing: border-box;
     border: 2px solid black;
     padding: 50px;
-}
-
-body {
-    position: absolute;
-    margin: 50px;
-    width: calc(100% - 100px);
 }
 
 .blue {
