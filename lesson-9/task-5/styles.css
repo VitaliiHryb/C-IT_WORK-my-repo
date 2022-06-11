@@ -22,7 +22,7 @@
 .nav-item {
     position: relative;
     color: white;
-    float: right;
+    float: left;
     margin-left: 16px;
     /* delete marker */
     list-style-type: none;
