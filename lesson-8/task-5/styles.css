@@ -1,10 +1,10 @@
 body {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
 }
 
 div {
-    position: relative;
+    /* position: relative; */
     box-sizing: border-box;
     border: 2px solid black;
     padding: 50px;
@@ -13,7 +13,7 @@ div {
 .blue {
     background-color: blue;
     margin: 50px;
-    padding-bottom: 0;
+    /* padding-bottom: 2px; */
 }
 
 .yellow {
