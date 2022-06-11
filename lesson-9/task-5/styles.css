@@ -9,6 +9,7 @@
 .navigation {
     position: absolute;
     height: 40px;
+    margin-left: 16px;
 }
 
 .nav-list {
@@ -22,9 +23,9 @@
     position: relative;
     color: white;
     float: right;
-    padding-left: 16px;
-    list-style-type: none;
+    margin-left: 16px;
     /* delete marker */
+    list-style-type: none;
     line-height: 40px;
 }
 
