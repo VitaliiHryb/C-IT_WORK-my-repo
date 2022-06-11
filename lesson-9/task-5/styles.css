@@ -7,15 +7,29 @@
 }
 
 .navigation {
+    position: absolute;
     height: 40px;
 }
 
-.nav-item {
-    margin-left: 16px;
-    color: white;
-    float: left;
-    list-style-type: none;
+.nav-list {
+    position: relative;
+    height: 40px;
+    margin: 0;
+    padding: 0;
 }
+
+.nav-item {
+    position: relative;
+    color: white;
+    float: right;
+    padding-left: 16px;
+    list-style-type: none;
+    /* delete marker */
+    line-height: 40px;
+}
+
+
+/* ------------- Bear ------------------ */
 
 content {
     position: relative;
