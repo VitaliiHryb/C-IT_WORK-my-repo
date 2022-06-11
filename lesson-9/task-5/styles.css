@@ -35,7 +35,7 @@ body {
 /* ------------- Bear ------------------ */
 
 .content {
-    position: absolute;
+    position: relative;
     height: 5000px;
     width: 100%;
     background-color: beige;
@@ -43,10 +43,10 @@ body {
 }
 
 .head {
-    position: relative;
+    position: absolute;
     width: 200px;
     height: 200px;
-    top: calc(50% - 100px);
+    top: calc(100vh - 100px);
     left: calc(50% - 100px);
     background-color: aquamarine;
 }
