@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    float: left;
+    width: 50%;
+}
+
+.square {
+    width: 50%;
+}
+
+.red {
+    background-color: red;
+    float: left;
+}
+
+.green {
+    background-color: green;
+    float: right;
+}
+
+.footer {
+    clear: both;
+}
