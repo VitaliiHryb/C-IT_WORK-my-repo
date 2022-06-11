@@ -1,0 +1,22 @@
+.horizontal {
+    display: flex;
+    height: 50px;
+}
+
+.horizontal,
+span {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vertical {
+    display: flex;
+    height: 200px;
+}
+
+.vertical,
+span {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
