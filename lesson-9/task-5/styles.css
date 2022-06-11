@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     position: fixed;
     background-color: darkturquoise;
@@ -9,14 +13,12 @@
 .navigation {
     position: absolute;
     height: 40px;
-    margin-left: 16px;
 }
 
 .nav-list {
     position: relative;
     height: 40px;
     margin: 0;
-    padding: 0;
 }
 
 .nav-item {
@@ -32,8 +34,8 @@
 
 /* ------------- Bear ------------------ */
 
-content {
-    position: relative;
+.content {
+    position: absolute;
     height: 5000px;
     width: 100%;
     background-color: beige;
@@ -41,15 +43,12 @@ content {
 }
 
 .head {
-    position: absolute;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
+    position: relative;
     width: 200px;
     height: 200px;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
     background-color: aquamarine;
-    transform: translate(-50%, -50%);
 }
 
 .ear {
@@ -80,11 +79,9 @@ content {
 }
 
 .eye_right {
-    /* right: 20px; */
     float: left;
 }
 
 .eye_left {
-    /* left: 20px; */
     float: right;
 }
