@@ -15,7 +15,8 @@
     margin: 0;
     display: flex;
     list-style-type: none;
-    /* padding-inline-start: 0; */
+    /* in the task, the indent on the left must be 16 pixels */
+    padding-inline-start: 16px;
 }
 
 .navigation_item {
