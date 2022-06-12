@@ -1,9 +1,6 @@
-/* box-sizing: border-box; */
-
 header {
     display: flex;
     justify-content: center;
-    /* align-content: center; */
 }
 
 .articles-list {
@@ -16,5 +13,6 @@ header {
     padding: 16px;
     background-color: bisque;
     flex-basis: 300px;
-    /* min-width: 300px; */
+    box-sizing: border-box;
+    flex-grow: 1;
 }
