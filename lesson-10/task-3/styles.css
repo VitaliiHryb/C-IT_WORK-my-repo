@@ -1,7 +1,7 @@
 .page {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
@@ -11,28 +11,29 @@
     background-color: yellow;
 }
 
-ul.list {
+.navigation {
+    margin: 0;
     display: flex;
     list-style-type: none;
-    margin: 0;
 }
 
-.list_element {
+.navigation_item {
     margin-right: 16px;
+    /* margin: 16px; */
 }
 
 
 /* ------------ main_content ------------*/
 
-main {
+.content {
     display: flex;
     flex-grow: 1;
 }
 
-section {
+.dashboard {
     display: flex;
-    background-color: pink;
     flex-grow: 1;
+    background-color: pink;
     align-items: center;
     justify-content: center;
 }
@@ -40,26 +41,32 @@ section {
 
 /* ------------ left_content ------------*/
 
-aside {
-    display: flex;
-    flex-direction: column;
-    background-color: grey;
-    width: 200px;
-}
-
 .news {
-    align-self: center;
+    display: flex;
+    width: 200px;
+    background-color: grey;
+    flex-direction: column;
     padding: 16px 0;
 }
 
-.aside_list {
-    padding: 0;
+.news_header {
+    display: flex;
+    justify-content: center;
 }
 
-.aside_element {
+.news_item {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 16px;
+}
+
+.aside_item {
     list-style-type: none;
-    height: 40px;
-    margin-left: 16px;
+    line-height: 40px;
+}
+
+h2 {
+    margin: 0;
 }
 
 
