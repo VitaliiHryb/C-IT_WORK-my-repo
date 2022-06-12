@@ -24,7 +24,7 @@
 }
 
 
-/* ------------ main_content ------------*/
+/* ------------ /main_content ------------*/
 
 .content {
     display: flex;
@@ -40,7 +40,7 @@
 }
 
 
-/* ------------ left_content ------------*/
+/* ------------ /left_content ------------*/
 
 .news {
     display: flex;
@@ -71,7 +71,7 @@ h2 {
 }
 
 
-/* ------------ right_content ------------*/
+/* ------------ /right_content ------------*/
 
 .footer {
     display: flex;
