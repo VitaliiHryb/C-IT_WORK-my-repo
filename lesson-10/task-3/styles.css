@@ -15,17 +15,15 @@
     margin: 0;
     display: flex;
     list-style-type: none;
-    /* in the task, the indent on the left must be 16 pixels */
-    padding-inline-start: 16px;
+    padding-inline-start: 0;
 }
 
 .navigation_item {
-    /* margin-left: 16px; */
-    margin-right: 16px;
+    margin-left: 16px;
 }
 
 
-/* ------------ /main_content ------------*/
+/* ------------ main_content ------------*/
 
 .content {
     display: flex;
@@ -41,7 +39,7 @@
 }
 
 
-/* ------------ /left_content ------------*/
+/* ------------ left_content ------------*/
 
 .news {
     display: flex;
@@ -72,7 +70,7 @@ h2 {
 }
 
 
-/* ------------ /right_content ------------*/
+/* ------------ right_content ------------*/
 
 .footer {
     display: flex;
