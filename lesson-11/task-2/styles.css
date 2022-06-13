@@ -8,7 +8,8 @@
     width: 150px;
     background-color: bisque;
     margin: 16px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
 }
 
 .cropped {
