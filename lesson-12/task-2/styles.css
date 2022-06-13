@@ -10,7 +10,7 @@ h1 {
     white-space: nowrap;
     text-overflow: ellipsis;
     /* должен обрезаться при помощи ... */
-    margin: 16px auto;
+    margin: auto;
 }
 
 div {
