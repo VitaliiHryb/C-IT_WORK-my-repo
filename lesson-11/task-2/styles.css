@@ -1,0 +1,26 @@
+body {
+    display: flex;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+    margin: 16px;
+}
+
+.cropped {
+    overflow: hidden;
+}
+
+.both-scrolls {
+    overflow: scroll;
+}
+
+.vertical-scroll {
+    overflow: auto;
+    /* overflow-x: auto; */
+    /* overflow-y: auto; */
+    /* cursor: pointer; */
+    cursor: all-scroll;
+}
