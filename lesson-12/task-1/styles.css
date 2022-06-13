@@ -1,31 +1,18 @@
 html {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-}
-
-.section {
     margin: 32px;
 }
 
 h1 {
     display: flex;
     word-spacing: 20px;
-    /* + */
-    /* letter-spacing: 5px; */
-    /* text-transform: capitalize; */
     text-transform: uppercase;
-    /* + */
-    /* text-transform: lowercase; */
-    /*Горизонтальное выравнивание*/
     justify-content: center;
 }
 
 p {
     line-height: 28px;
-}
-
-.translation {
-    color: grey;
 }
 
 .technology {
@@ -37,6 +24,10 @@ p {
 
 a {
     text-decoration: none;
+}
+
+.translation {
+    color: grey;
 }
 
 
