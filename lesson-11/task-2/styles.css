@@ -1,8 +1,9 @@
 .articles {
     display: flex;
+    width: 100%;
 }
 
-div {
+.articles>div {
     height: 150px;
     width: 150px;
     background-color: bisque;
