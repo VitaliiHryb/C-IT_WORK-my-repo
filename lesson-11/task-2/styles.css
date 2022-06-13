@@ -1,15 +1,14 @@
 .articles {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .articles>div {
     height: 100px;
     width: 150px;
-    background-color: bisque;
+    background-color: beige;
     margin: 16px;
-    /* box-sizing: border-box; */
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .cropped {
