@@ -4,7 +4,8 @@
 
 .dropdown {
     margin: 16px;
-    padding: 8px;
+    /* padding: 16px; */
+    display: inline-block;
 }
 
 .menu-button {
