@@ -5,10 +5,11 @@ html {
 }
 
 h1 {
-    display: flex;
+    /* display: flex; */
     word-spacing: 20px;
     text-transform: uppercase;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: center;
     /* margin: 0; */
 }
 
