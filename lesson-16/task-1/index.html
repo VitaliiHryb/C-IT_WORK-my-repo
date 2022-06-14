@@ -17,15 +17,25 @@
             <input type="number" name="age" value="17" />
         </div>
         <div class="form-control">
-            <input type="checkbox" name="agree" checked />
+            <input type="checkbox" name="agree" />
+            <label for="agree">Accept terms and conditions</label>
         </div>
         <div class="form-control">
-            <input type="radio" name="gender" />Mail
-            <input type="radio" name="gender" />Femail
-            <input type="radio" name="gender" />Secret
+            <div class="choose-gender">
+                <input type="radio" name="gender" />
+                <label for="gender">Mail</label>
+            </div>
+            <div class="choose-gender">
+                <input type="radio" name="gender" />
+                <label for="gender">Femail</label>
+            </div>
+            <div class="choose-gender">
+                <input type="radio" name="gender" />
+                <label for="gender">Secret</label>
+            </div>
         </div>
         <div class="form-control">
-            <textarea name="description" placeholder="Type your story..."></textarea>
+            <textarea name="description" placeholder="Write description..."></textarea>
         </div>
         <div class="form-control">
             <button type="submit">Submit</button>
