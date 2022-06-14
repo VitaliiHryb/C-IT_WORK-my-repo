@@ -20,20 +20,15 @@
             <input type="checkbox" name="agree" />
             <label for="agree">Accept terms and conditions</label>
         </div>
-        <div class="form-control">
-            <div class="choose-gender">
-                <!-- <input type="radio" name="gender" checked /> -->
-                <input type="radio" name="gender" />
-                <label for="gender">Male</label>
-            </div>
-            <div class="choose-gender">
-                <input type="radio" name="gender" />
-                <label for="gender">Female</label>
-            </div>
-            <div class="choose-gender">
-                <input type="radio" name="gender" />
-                <label for="gender">Secret</label>
-            </div>
+        <div class="form-control choose-gender">
+            <input id="male" type="radio" name="gender" value="male" checked />
+            <label for="male">Male</label>
+
+            <input id="female" type="radio" name="gender" value="female" />
+            <label for="female">Female</label>
+
+            <input id="other" type="radio" name="gender" value="other" />
+            <label for="other">Secret</label>
         </div>
         <div class="form-control">
             <textarea name="description" placeholder="Write description..."></textarea>
