@@ -1,17 +1,8 @@
-body {
-    /*
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    */
+.mountains {
     font-size: 32px;
     font-weight: 700;
     color: #fff;
     box-sizing: border-box;
-}
-
-.mountains {
-    /* display: flex; */
     width: 300px;
     height: 500px;
     padding-top: 32px;
