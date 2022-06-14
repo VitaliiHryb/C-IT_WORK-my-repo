@@ -3,12 +3,16 @@
 }
 
 .image {
-    flex-basis: 100%;
-    margin: auto;
+    /* картинка отцентрирована по горизонтали */
     display: block;
+    margin: 0 auto;
+    /* flex-basis: 100%; */
+    max-width: 100%;
+    /* картинка не разтягивается больше своей оригинальной ширины */
 }
 
 .image-button {
+    position: absolute;
     width: 200px;
     height: 50px;
     background-color: bisque;
@@ -16,7 +20,6 @@
     text-transform: uppercase;
     font-weight: 700;
     opacity: 0.5;
-    position: absolute;
     top: calc(50% - 25px);
     left: calc(50% - 100px);
     text-align: center;
