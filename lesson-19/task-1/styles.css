@@ -30,11 +30,15 @@
 }
 
 .rect:nth-child(2) {
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease;
+}
+
+.rect:nth-child(2) {
+    transition-timing-function: ease-in;
 }
 
 .rect:nth-child(3) {
-    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
 }
 
 .rect:nth-child(4) {
