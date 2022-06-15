@@ -3,22 +3,28 @@
 }
 
 .container {
-    margin: 16px;
+    display: flex;
+    width: 300px;
+    height: 300px;
 }
 
 .rect {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
     width: 100px;
     height: 100px;
     background-color: coral;
-    margin-bottom: 16px;
     opacity: 0.5;
-    /*transition-property: width, opacity;
-    transition-duration: 1s, 3s; */
-    transition: width 1s/*0.5s*/
-    , opacity 3s/*0.5s*/
+    /*
+    transition: width 1s 0.5s
+    , opacity 3s 0.5s
     ;
+    */
 }
 
+
+/*
 .rect:hover {
     width: 100%;
     opacity: 1;
@@ -38,4 +44,4 @@
 
 .rect:nth-child(4) {
     transition-timing-function: ease-in-out;
-}
+}*/
