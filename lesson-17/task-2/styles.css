@@ -3,13 +3,13 @@
 }
 
 table {
-    margin: 32px;
     width: 500px;
+    margin: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 caption {
-    margin: 8px;
+    margin-bottom: 8px;
 }
 
 table,
@@ -17,14 +17,16 @@ td,
 th {
     border: 1px solid black;
     border-collapse: collapse;
-    /* border-spacing: 10px; */
 }
 
 td,
 th {
     padding: 4px;
     text-align: right;
-    line-height: 40px;
+}
+
+tr {
+    height: 40px;
 }
 
 th {
