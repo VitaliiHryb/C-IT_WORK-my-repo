@@ -1,11 +1,10 @@
-//const c = 4;
-//console.log(c);
-//alert(c);
-/*
-const d = 5;
-const e = c + d;
-console.log(e);
+const a = 4;
+const b = 2;
 
-document.querySelector("a").innerText = "Hello World";
-*/
-console.log("Hello world!");
+console.log("a:", a);
+console.log("b:", b);
+
+console.log("a - b =", a - b);
+console.log("a + b =", a + b);
+console.log("a / b =", a / b);
+console.log("a * b =", a * b);
