@@ -1,11 +1,5 @@
-//const c = 4;
-//console.log(c);
-//alert(c);
-/*
-const d = 5;
-const e = c + d;
-console.log(e);
-
-document.querySelector("a").innerText = "Hello World";
-*/
-console.log("Hello world!");
+const userName = "John";
+const greeting = "I'm John";
+const hobby = "Walking";
+const favouriteDessert = "cake";
+const superNumber = 17;
