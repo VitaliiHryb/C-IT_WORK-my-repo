@@ -1,13 +1,12 @@
-Unexpected var, use let or const instead.
-Replace `····` with `··`
-Expected '===' and instead saw '=='.
-Replace `········` with `····`
-'c' is not defined.
-Delete `··`
-Delete `····`
-Unary operator '++' used.
-Delete `····`
-Delete `··`
-Delete `··`
-Return statement should not contain assignment.
-Insert `⏎`
+no-var
+prettier/prettier
+eqeqeq
+prettier/prettier
+no-undef
+prettier/prettier
+prettier/prettier
+no-plusplus
+prettier/prettier
+prettier/prettier
+no-return-assign
+prettier/prettier
