@@ -6,3 +6,9 @@ picture {
   max-width: 100%;
   margin: auto;
 }
+
+@media screen {
+  img {
+    max-width: 400px;
+  }
+}
