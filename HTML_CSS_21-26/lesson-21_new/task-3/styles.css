@@ -34,9 +34,11 @@ main {
 }
 */
 
+/* ----------------- HEADER ------------------*/
 .header {
   /*display: flex;*/
-  background: linear-gradient(to left, orange, 60%, red);
+  /*background: linear-gradient(to left, orange, 60%, red);*/
+  background-image: linear-gradient(60deg, red, orange);
   /* ---------- */
   text-align: center;
   color: #fff;
@@ -56,6 +58,7 @@ h1 {
   padding: 0.5em;
 }
 
+/* ----------------- NAVIGATION ------------------*/
 .navigation {
   width: 20%;
   /* +++ */
@@ -96,7 +99,9 @@ h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+/* ----------------- /NAVIGATION ----------------*/
 
+/* ----------------- SECTION ------------------*/
 .section {
   width: 60%;
   font-size: 1.25em;
@@ -120,12 +125,15 @@ h1 {
   font-size: 1.125em;
   font-weight: 700;
 }
+/* ----------------- /SECTION --------------------*/
 
+/* ---------------- ASIDE --------------------*/
 .news {
   width: 20%;
   /* ++++ */
   /*padding: 0.5em;*/
 }
+/* ---------------- /ASIDE --------------------*/
 
 footer {
   /* Чтобы footer не уменьшался */
