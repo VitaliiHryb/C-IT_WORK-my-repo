@@ -23,7 +23,7 @@ body {
 
 .header {
   display: flex;
-  background: linear-gradient(to right, red, 60%, orange);
+  background: linear-gradient(to left, orange, 60%, red);
 }
 
 h1 {
@@ -50,7 +50,6 @@ h1 {
 */
 
 .nav-list-item {
-  display: flex;
   padding: 0;
   list-style-type: none;
   background-color: #808080;
