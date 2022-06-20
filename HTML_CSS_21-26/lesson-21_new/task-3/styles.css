@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    /* Чтобы занимал оставшееся пространство */
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+}
+
+h1 {
+    color: #fff;
+    margin: auto;
+    background: linear-gradient(to right, red, 60%, orange);
+}
+
+.navigation,
+.section,
+.news {
+    padding: 0.5em;
+}
+
+.navigation {
+    width: 20%;
+}
+
+
+/*
+.nav-list {
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+.nav-list-item {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    background-color: #808080;
+    /*color: #fff;*/
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0.5em;
+    /* ссылка должна занимать весь! елемент навигации */
+    width: 100%;
+}
+
+.section {
+    width: 60%;
+    font-size: 1.25em;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    /* размер шрифта в 1.125 больше текущего */
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.news {
+    width: 20%;
+}
+
+footer {
+    /* Чтобы footer не уменьшался */
+    flex-shrink: 0;
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    text-align: center;
+}
