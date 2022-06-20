@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  margin: 0;
   display: flex;
+  margin: 0;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -18,19 +18,37 @@ body {
 .main {
   display: flex;
   /* Чтобы занимал оставшееся пространство */
-  flex-grow: 1;
+  /*flex-grow: 1;*/
+  flex: 1;
 }
+
+/*
+main {
+    flex:1;
+    display: flex;
+*/
+
+/*
+.units-list {
+  line-height: 1.75em;
+}
+*/
 
 .header {
-  display: flex;
+  /*display: flex;*/
   background: linear-gradient(to left, orange, 60%, red);
+  /* ---------- */
+  text-align: center;
+  color: #fff;
 }
 
+/*
 h1 {
   text-align: center;
   width: 100%;
   color: #fff;
 }
+*/
 
 .navigation,
 .section,
@@ -40,39 +58,50 @@ h1 {
 
 .navigation {
   width: 20%;
+  /* +++ */
+  /* padding: 0.5em; */
 }
 
-/*
+/* ++++ */
 .nav-list {
-    display: flex;
-    flex-direction: column;
+  padding: 0;
 }
-*/
 
 .nav-list-item {
-  padding: 0;
+  /* ---- */
+  /*padding: 0;*/
   list-style-type: none;
   background-color: #808080;
   /*color: #fff;*/
+  height: 2em;
   line-height: 2em;
   margin-bottom: 0.5em;
   color: #fff;
+  /*
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  */
+}
+
+.nav-list-link {
+  width: 100%;
+  /* +++ */
+  display: inline-block; /* + */
+  padding: 0 0.5em;
+  text-decoration: none;
+  color: #fff;
+  /* ссылка должна занимать весь! елемент навигации */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
-.nav-list-link {
-  text-decoration: none;
-  color: #fff;
-  padding: 0 0.5em;
-  /* ссылка должна занимать весь! елемент навигации */
-  width: 100%;
-}
-
 .section {
   width: 60%;
   font-size: 1.25em;
+  /* ++++ */
+  /*padding: 0.5em;*/
 }
 
 .section__header {
@@ -94,12 +123,14 @@ h1 {
 
 .news {
   width: 20%;
+  /* ++++ */
+  /*padding: 0.5em;*/
 }
 
 footer {
   /* Чтобы footer не уменьшался */
-  flex-shrink: 0;
+  /*flex-shrink: 0;*/
   background-color: #e5e5e5;
-  padding: 0.5em;
   text-align: center;
+  padding: 0.5em;
 }
