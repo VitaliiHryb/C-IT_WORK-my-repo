@@ -1,11 +1,11 @@
 function uniqueCount(array) {
-    if (!Array.isArray(array)) {
-        return null;
-    }
-    let newArr = [...new Set(array)];
-    let sum = newArr.length;
-    /*return sum;*/
-    console.log(sum);
+  if (!Array.isArray(array)) {
+    return null;
+  }
+  let newArr = [...new Set(array)];
+  let sum = newArr.length;
+  /*return sum;*/
+  console.log(sum);
 }
 
 console.log([1, 4, 1, 8, 3, 4, 8, 8]);
