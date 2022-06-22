@@ -1,162 +1,47 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  color: #555;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-/* --- HEADER --- */
-.header {
-  background-image: linear-gradient(60deg, red, orange);
-  text-align: center;
-  color: white;
-}
-
-/* --- /HEADER --- */
-/* --- MAIN --- */
-.main {
+.navigation {
+  background-color: #ff7f50;
+  min-height: 200px;
   display: flex;
   flex: 1;
-  flex-direction: column;
+  /*flex-grow: 1;*/
 }
 
-/* --- NAV --- */
-.navigation {
-  width: 100%;
-  padding: 0.5em;
+.product-list {
+  background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+  /*flex-grow: 1;*/
 }
 
-.nav-list {
-  padding: 0;
-}
-.nav-list-item {
-  height: 2em;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  list-style-type: none;
-  background-color: #808080;
-  color: #ffffff;
-}
-.nav-list-link {
-  display: inline-block;
-  width: 100%;
-  padding: 0 0.5em;
-  text-decoration: none;
-  color: #ffffff;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-/*
-.nav-list-item {
-  height: 2em;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  list-style-type: none;
-  background-color: #808080;
-  color: #ffffff;
-}*/
-/*
-.nav-list-link {
-  display: inline-block;
-  width: 100%;
-  padding: 0 0.5em;
-  text-decoration: none;
-  color: #ffffff;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}*/
-/* --- /NAV --- */
-/* --- SECTION --- */
-.section {
-  padding: 0.5em;
-  width: 60%;
-  font-size: 1.25em;
-  width: 100%;
-}
-.section__header {
-  font-size: 5vw;
-  text-align: center;
-}
-
-/*
-.section__header {
-  font-size: 5vw;
-  text-align: center;
-}*/
-img {
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  max-width: 100%;
-}
-
-.units-list {
-  line-height: 1.75em;
-}
-
-.css-units {
-  font-weight: 700;
-  font-size: 1.125em;
-  color: #8b0000;
-  background-color: #e5e5e5;
-}
-
-/* --- /SECTION --- */
-/* --- ASIDE --- */
 .news {
-  padding: 0.5em;
-  width: 20%;
-  width: 100%;
+  background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+  /*flex-grow: 1;*/
 }
 
-/* --- /ASIDE --- */
-/* --- /MAIN --- */
-/* --- FOOTER --- */
-.footer {
-  background-color: #e5e5e5;
-  text-align: center;
-  padding: 0.5em;
+span {
+  background-color: #faebd7;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
 }
 
-/* --- /FOOTER --- */
-/* --- MEDIA --- */
 @media screen and (min-width: 600px) {
-  .main {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .navigation {
-    width: 20%;
-  }
-  .section {
-    width: 80%;
+  .products {
+    display: flex;
+    flex: 2;
+    /*flex-grow: 2;*/
   }
 }
-/*--- 900px?---*/
-@media screen and (min-width: 1200px) {
-  .main {
-    flex-direction: row;
-  }
-  .navigation {
-    width: 20%;
-  }
-  .section {
-    width: 60%;
-  }
-  .news {
-    width: 20%;
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
   }
 }
-/* --- /MEDIA --- */
 
 /*# sourceMappingURL=styles.css.map */
