@@ -8,3 +8,15 @@
   font-weight: 700;
   font-size: 18px;
 }
+
+@media screen and (min-width: 400px) {
+  .hide_desctop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .hide_mobile {
+    display: none;
+  }
+}

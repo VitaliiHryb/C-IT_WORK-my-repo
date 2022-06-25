@@ -16,12 +16,12 @@
     />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/headline.css" />
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/customers.css">
     <link rel="stylesheet" href="styles/features.css">
+    <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/tips.css">
   </head>
   <body>
@@ -175,6 +175,15 @@
       <footer class="footer">
         <div class="footer-navigation">
             <div class="about-company">
+                <!-- for mobile logo-->
+                <div class="logo-vertical">
+                  <img class="logo-vertical__image" src="img/icon-dark.png" alt="logo" />
+                  <div class="logo-vertical__text">
+                    <div class="logo-vertical__name">Foundation</div>
+                    <div class="logo-vertical__description">Startup landing template</div>
+                  </div>
+                </div>
+                <!-- for desctop logo -->
                 <div class="logo">
                     <img class="logo__image" src="img/icon-dark.png" alt="logo" />
                     <div class="logo__text">
@@ -200,6 +209,7 @@
                     </ul>
                 </div>
             </div>
+            <div class="footer__line hide_desctop"></div>
             <div class="additional-navigation">
                 <div class="nav-links">
                     <h3 class="nav-links__title">Company</h3>
@@ -212,7 +222,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer__line"></div>
+        <div class="footer__line hide_mobile"></div>
         <div class="footer-links">
           <nav class="terms">
             <a href="#" class="terms__items">Terms</a>
