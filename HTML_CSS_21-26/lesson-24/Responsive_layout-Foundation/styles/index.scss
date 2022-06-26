@@ -11,11 +11,8 @@ html {
 .page {
   width: 100%; /* -- 320px -- */
   overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-  /* -- 320px -- */
-  .page {
+  @include for-large-up {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
@@ -23,3 +20,15 @@ html {
     flex-direction: column;
   }
 }
+
+@import 'beakpoints.scss';
+@import 'variables.scss';
+@import 'common.scss';
+@import 'about.scss';
+@import 'audience.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'tips.scss';
+@import 'footer.scss';
