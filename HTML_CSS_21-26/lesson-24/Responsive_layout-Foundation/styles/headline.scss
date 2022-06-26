@@ -57,11 +57,22 @@
   }
 
   &__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 30px;
 
     @include for-large-up {
+      flex-direction: row;
       margin-top: 58px;
-      display: flex;
+    }
+  }
+
+  &__actions-btn {
+    width: 290px;
+
+    @include for-large-up {
+      width: 160px;
     }
   }
 
@@ -70,7 +81,7 @@
     color: #3040c4;
     border-radius: 2px;
     border: none;
-    width: 158px;
+    width: 290px;
     height: 48px;
     font-weight: 700;
     font-size: 18px;
@@ -101,12 +112,6 @@
       width: 796px;
       height: 448px;
       margin-left: auto;
-    }
-  }
-
-  &__actions-btn {
-    @include for-large-up {
-      width: 100%;
     }
   }
 }

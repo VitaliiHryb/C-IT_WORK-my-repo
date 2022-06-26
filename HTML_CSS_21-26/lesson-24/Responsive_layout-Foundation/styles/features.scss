@@ -2,10 +2,12 @@
   display: flex;
   position: relative;
 
+  /*--- + ---*/
+  margin-bottom: 103px;
+
   @include for-large-down {
-    border: none;
-    /*--- + ---*/
-    margin-bottom: 103px;
+    /*border: none;*/
+    display: none;
   }
 
   &__content {

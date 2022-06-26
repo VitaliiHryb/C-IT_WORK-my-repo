@@ -1,3 +1,6 @@
+@import 'beakpoints.scss';
+@import 'variables.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -8,21 +11,19 @@ html {
   color: #2b292d;
 }
 
+button {
+  cursor: pointer;
+}
+
 .page {
   width: 100%; /* -- 320px -- */
   overflow-x: hidden;
-
-  @include for-large-up {
-    width: 1400px;
-    margin: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
 }
 
-@import 'beakpoints.scss';
-@import 'variables.scss';
+.top-section {
+  background-color: #f3c6bd;
+}
+
 @import 'common.scss';
 @import 'about.scss';
 @import 'audience.scss';
