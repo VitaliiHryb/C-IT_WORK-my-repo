@@ -18,6 +18,11 @@ button {
 .page {
   width: 100%; /* -- 320px -- */
   overflow-x: hidden;
+
+  @include for-large-up {
+    width: 1400px;
+    margin: auto;
+  }
 }
 
 .top-section {

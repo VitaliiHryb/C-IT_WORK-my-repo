@@ -17,6 +17,12 @@ button {
   width: 100%; /* -- 320px -- */
   overflow-x: hidden;
 }
+@media screen and (min-width: 1400px) {
+  .page {
+    width: 1400px;
+    margin: auto;
+  }
+}
 
 .top-section {
   background-color: #f3c6bd;
