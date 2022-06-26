@@ -2,6 +2,10 @@
   .tips {
     display: none;
   }
+  /*--- + ---*/
+  .features {
+    margin-bottom: 103px;
+  }
 }
 
 .features {
