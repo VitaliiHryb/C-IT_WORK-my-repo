@@ -17,15 +17,15 @@ button {
 
 .page {
   width: 100%; /* -- 320px -- */
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 
   @include for-large-up {
     width: 1400px;
     margin: auto;
 
-    min-height: 100vh;
+    /*min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;*/
   }
 }
 
