@@ -83,6 +83,11 @@
       margin: 0;
       margin-right: 30px;
       width: 262px;
+
+      &:hover {
+        background-color: rgba(49, 65, 197, 1);
+        color: $text-color-white;
+      }
     }
 
     &:last-child {
@@ -95,11 +100,6 @@
         margin-right: 0;
       }
     }
-  }
-
-  &__card_active {
-    background-color: rgba(49, 65, 197, 1);
-    color: #ffffff;
   }
 
   &__card-image {

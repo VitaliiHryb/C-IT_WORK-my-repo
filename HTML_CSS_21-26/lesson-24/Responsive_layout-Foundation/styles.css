@@ -31,12 +31,18 @@ button {
 .action-button {
   background-color: #3040c4;
   color: #ffffff;
-  border-radius: 2px;
-  border: none;
   width: 160px;
   height: 48px;
   font-weight: 700;
   font-size: 18px;
+  border-radius: 2px;
+  border: none;
+  /*
+  &_seccondary {
+    color: $text-color-black;
+    background-color: $color-white;
+  }
+  */
 }
 
 @media screen and (min-width: 1400px) {
@@ -171,6 +177,10 @@ button {
     margin-right: 30px;
     width: 262px;
   }
+  .audience__card:hover {
+    background-color: rgb(49, 65, 197);
+    color: #fff;
+  }
 }
 .audience__card:last-child {
   margin-bottom: 0;
@@ -182,10 +192,6 @@ button {
     margin-bottom: 0;
     margin-right: 0;
   }
-}
-.audience__card_active {
-  background-color: rgb(49, 65, 197);
-  color: #ffffff;
 }
 .audience__card-image {
   margin: auto;
@@ -635,6 +641,98 @@ button {
   color: rgba(43, 41, 45, 0.6);
   margin-top: 20px;
   max-width: 100%;
+}
+
+.order {
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+}
+@media screen and (min-width: 1400px) {
+  .order {
+    padding: 73px 0 72px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__details {
+    max-width: 555px;
+  }
+}
+.order__illustration {
+  max-width: 900px;
+}
+@media screen and (min-width: 1400px) {
+  .order__illustration {
+    width: 269.41px;
+    margin-right: 121.59px;
+  }
+}
+.order__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.25px;
+  margin-top: 40px;
+}
+.order__text {
+  margin: 0;
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 18px;
+}
+.order__form {
+  display: flex;
+}
+@media screen and (min-width: 1400px) {
+  .order__form {
+    display: flex;
+    margin-top: 26px;
+  }
+}
+.order__email {
+  margin-top: 40px;
+  background: #ffffff;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .order__email {
+    margin-top: 0;
+  }
+}
+.order__email::placeholder {
+  color: #2b292d;
+}
+.order__button {
+  margin-top: 12px;
+}
+@media screen and (max-width: 1399px) {
+  .order__button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__button {
+    margin-top: 0;
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
+}
+.order__terms {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+}
+.order__terms-link {
+  color: #3142c6;
 }
 
 .footer {
