@@ -1,0 +1,50 @@
+.price-card_basic {
+  .price-card__price {
+    background-color: $basic-font-color;
+  }
+
+  .price-card__btn {
+    background-color: $basic-font-color;
+    color: $text-color-white;
+  }
+
+  .price-card__item::before {
+    content: '✔';
+    margin: 0 22px;
+    color: #5bb189;
+  }
+}
+
+.price-card_business {
+  .price-card__price {
+    background-color: $business-font-color;
+  }
+
+  .price-card__btn {
+    background-color: $business-font-color;
+    color: $text-color-white;
+  }
+
+  .price-card__item::before {
+    content: '✔';
+    margin: 0 22px;
+    color: #3a6ba5;
+  }
+}
+
+.price-card_webshop {
+  .price-card__price {
+    background-color: $webshop-font-color;
+  }
+
+  .price-card__btn {
+    background-color: $webshop-font-color;
+    color: $text-color-white;
+  }
+
+  .price-card__item::before {
+    content: '✔';
+    margin: 0 22px;
+    color: #ec632a;
+  }
+}
