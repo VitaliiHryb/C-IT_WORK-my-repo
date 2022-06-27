@@ -15,12 +15,15 @@ button {
 
 .page {
   width: 100%; /* -- 320px -- */
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 @media screen and (min-width: 1400px) {
   .page {
     width: 1400px;
     margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 }
 
