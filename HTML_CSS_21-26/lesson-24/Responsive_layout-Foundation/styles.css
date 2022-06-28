@@ -114,6 +114,7 @@ button {
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
+  margin: 0;
   margin-bottom: 17px;
 }
 .audience__title {
@@ -121,6 +122,7 @@ button {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
+  margin: 0;
   margin-bottom: 18px;
 }
 @media screen and (min-width: 1400px) {
@@ -137,6 +139,7 @@ button {
 .audience__description {
   font-size: 24px;
   line-height: 34px;
+  margin: 0;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1400px) {
