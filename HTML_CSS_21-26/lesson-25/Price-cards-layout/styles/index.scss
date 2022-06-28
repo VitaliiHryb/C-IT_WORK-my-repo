@@ -16,13 +16,12 @@ body {
   background: $page-color;
   color: $text-color-white;
   display: flex;
-  /*align-items: center;*/
-  align-items: end;
+  align-items: center;
   justify-content: center;
   margin: auto;
 
-  width: 1440px;
-  height: 1000px;
+  /*width: 1440px;
+  height: 1000px;*/
 }
 
 @import 'card.scss';
