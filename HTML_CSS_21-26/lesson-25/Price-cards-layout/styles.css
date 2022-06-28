@@ -14,7 +14,8 @@ body {
   background: #141b1c;
   color: #ffffff;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
+  align-items: end;
   justify-content: center;
   margin: auto;
   width: 1440px;
