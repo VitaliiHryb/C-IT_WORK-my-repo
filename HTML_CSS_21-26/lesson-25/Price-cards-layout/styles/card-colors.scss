@@ -3,12 +3,12 @@
     background-color: $basic-font-color;
   }
 
-  .price-card__btn {
+  .price-card__order-btn {
     background-color: $basic-font-color;
     color: $text-color-white;
   }
 
-  .price-card__item::before {
+  .price-card__option-item::before {
     content: '✔';
     margin: 0 22px;
     color: #5bb189;
@@ -20,12 +20,12 @@
     background-color: $business-font-color;
   }
 
-  .price-card__btn {
+  .price-card__order-btn {
     background-color: $business-font-color;
     color: $text-color-white;
   }
 
-  .price-card__item::before {
+  .price-card__option-item::before {
     content: '✔';
     margin: 0 22px;
     color: #3a6ba5;
@@ -37,12 +37,12 @@
     background-color: $webshop-font-color;
   }
 
-  .price-card__btn {
+  .price-card__order-btn {
     background-color: $webshop-font-color;
     color: $text-color-white;
   }
 
-  .price-card__item::before {
+  .price-card__option-item::before {
     content: '✔';
     margin: 0 22px;
     color: #ec632a;
